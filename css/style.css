@@ -76,6 +76,5 @@
 }
 .container{
     
-    position: relative;
-    top:105px;
+    margin-top: 10px;
 }
