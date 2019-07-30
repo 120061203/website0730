@@ -44,8 +44,11 @@
   
 }
 .nav{
-    width:30%;
+    position: relative;
+    top:10px;
+    width:auto;
     float:right;
+   
     
     
 }
@@ -54,12 +57,16 @@
     list-style-type: none;
     display: inline-block;
     padding: 5px;
-    margin:5px;
+    margin:2px; 
     background-color:#ccc;
     box-shadow: 2px 2px 3px #999;
     border-radius: 5px;
     border: 2px solid rgba(155,155,155,1);
     
+}
+.nav ul{
+    margin-left: auto;
+    margin-right: auto;
 }
 .nav a{
     color:white;
@@ -76,5 +83,6 @@
 }
 .container{
     
-    margin-top: 10px;
+    position: relative;
+    top:105px;
 }
